@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  testappwin:
+    image: ${DOCKER_REGISTRY}testappwin
+    build:
+      context: .
+      dockerfile: TestAppWin\Dockerfile
